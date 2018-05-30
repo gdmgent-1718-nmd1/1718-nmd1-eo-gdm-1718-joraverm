@@ -15,4 +15,154 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+ul .display {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigatie {
+    width: 82%;
+    height: 100px;
+    background-color: white;
+    float: right;
+    color: #0F0F0F;
+}
+
+.introtext {
+    float:right;
+    padding: 40px 50px 0px 0px
+}
+
+#header {
+    width: 100%;
+    Height: 100px;
+    Background-color: #0F0F11;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    padding: 25px 0px 0px 50px
+}
+
+.typo {
+    background-color: #ACDA6C;
+    padding: 70px 180px 80px 90px;
+    color: white;
+}
+
+#nummering {
+    color: #0F0F11;
+}
+
+#h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 120px;
+    margin-bottom: 100px;
+}
+
+#h2 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+#h3 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#h4 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#h5 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#nav {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#p {
+    font-weight: 400; 
+    font-size: 25px;  
+}
+
+.colorbg {
+    background-color: #0F0F11;
+    padding: 70px 180px 69px 90px;
+}
+
+#colortext {
+    color: white;
+}
+
+.color-coding {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#kleur1 {
+    color: white;
+}
+
+#color-img {
+    vertical-align: middle;
+    margin: 0 25px 0 0;
+}
+
+.color-margin {
+    margin: 15px;
+}
+
+#button {
+    vertical-align: middle;
+}
+
+.buttons-and-icons {
+    padding: 70px 180px 80px 90px;
+}
+
+#lijstText {
+    margin-top: 25px;
+}
+
+.Possible-logos {
+    background-color: #ACDA6C;
+    padding: 70px 180px 75px 90px;
+}
+
+#logo1id {
+    width: 400px;
+    height: auto;
+    margin-right: 140px;
+}
+
+#logo2id {
+    width: 400px;
+    height: auto;
+    margin-right: 220px;
+}
+
+#logo3id {
+    width: 100px;
+    height: auto;
+}
+
