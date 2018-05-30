@@ -15,16 +15,36 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-ul .display {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
 * {
     margin: 0px;
     padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    background-color: #0F0F11;
+    color: white;
+    padding: 25px 0px 25px 50px;
+}
+
+h5{
+    font-size: 0.85rem;
+}
+
+.siteColor {
+    color: #ACDA6C;
+}
+
+.positief {
+    color: green;
+}
+
+.negatief {
+    color: red;
 }
 
 .navigatie {
@@ -37,7 +57,11 @@ ul .display {
 
 .introtext {
     float:right;
-    padding: 40px 50px 0px 0px
+    padding: 40px 50px 0px 0px;
+}
+
+.introtext:hover {
+    text-decoration: underline;
 }
 
 #header {
@@ -68,6 +92,9 @@ ul .display {
     font-family: 'Barlow', sans-serif;
     font-size: 120px;
     margin-bottom: 100px;
+    color: white;
+    background-color: transparent;
+    padding: 0px;
 }
 
 #h2 {
@@ -166,3 +193,6 @@ ul .display {
     height: auto;
 }
 
+ul li{
+    list-style: none;
+}
